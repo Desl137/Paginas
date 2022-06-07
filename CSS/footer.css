@@ -1,0 +1,52 @@
+/* Começo do CSS do Footer */
+
+footer{
+  height: auto;
+  width: 100vw;
+  color: white;
+  padding-top: 40px;
+  position: absolute;
+  font-family: "Open Sans";
+  
+  background-color: #8724f2;
+  border-top: 8px solid #c52cdb;
+}
+
+.footer-content{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-content h3{
+  font-weight: 400;
+  line-height: 3rem;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.footer-content p{
+  font-size: 14px;
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  padding: 0px 0px 10% 0px;
+}
+
+.footer-bottom{
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  
+  background: #F919ED;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+} 
+
+/* Fim do CSS do Footer */
